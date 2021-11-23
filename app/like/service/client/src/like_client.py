@@ -1,6 +1,8 @@
 # Copyright (C) 2020 Georgia Tech Center for Experimental Research in Computer
 # Systems
-
+"""
+TODO : Sample string decribing the purpose of this file.
+"""
 import time
 
 import spdlog as spd
@@ -10,24 +12,24 @@ from thrift.protocol import TBinaryProtocol
 
 from buzzblog.gen import TLikeService
 
-
 def instrumented(func):
+    """ TODO : Method description """
     def func_wrapper(self, request_metadata, *args, **kwargs):
         start_time = time.monotonic()
         ret = func(self, request_metadata, *args, **kwargs)
         latency = time.monotonic() - start_time
         try:
             logger = spd.get("logger")
-            logger.info("request_id=%s server=%s:%s function=like:%s latency=%.9f" %
-                (request_metadata.id, self._ip_address, self._port, func.__name__,
-                    latency))
-        except:
+            logger.info(f'request_id={request_metadata.id} server={self._ip_address}:{self._port} \
+              function=like:{func.__name__} latency={latency:.9f}')
+        except NotImplementedError:
             pass
         return ret
     return func_wrapper
 
 
 class Client:
+    """ TODO : Class description """
     def __init__(self, ip_address, port, timeout=10000):
         self._ip_address = ip_address
         self._port = port
@@ -48,40 +50,48 @@ class Client:
         self.close()
 
     def close(self):
+        """ TODO : Method description """
         if self._transport.isOpen():
             self._transport.close()
 
     @instrumented
     def like_post(self, request_metadata, post_id):
+        """ TODO : Method description """
         return self._tclient.like_post(request_metadata=request_metadata,
             post_id=post_id)
 
     @instrumented
     def retrieve_standard_like(self, request_metadata, like_id):
+        """ TODO : Method description """
         return self._tclient.retrieve_standard_like(
             request_metadata=request_metadata, like_id=like_id)
 
     @instrumented
     def retrieve_expanded_like(self, request_metadata, like_id):
+        """ TODO : Method description """
         return self._tclient.retrieve_expanded_like(
             request_metadata=request_metadata, like_id=like_id)
 
     @instrumented
     def delete_like(self, request_metadata, like_id):
+        """ TODO : Method description """
         return self._tclient.delete_like(request_metadata=request_metadata,
             like_id=like_id)
 
     @instrumented
     def list_likes(self, request_metadata, query, limit, offset):
+        """ TODO : Method description """
         return self._tclient.list_likes(request_metadata=request_metadata,
             query=query, limit=limit, offset=offset)
 
     @instrumented
     def count_likes_by_account(self, request_metadata, account_id):
+        """ TODO : Method description """
         return self._tclient.count_likes_by_account(
             request_metadata=request_metadata, account_id=account_id)
 
     @instrumented
     def count_likes_of_post(self, request_metadata, post_id):
+        """ TODO : Method description """
         return self._tclient.count_likes_of_post(request_metadata=request_metadata,
             post_id=post_id)
