@@ -1,0 +1,1292 @@
+2021-11-19 16:02:03,506 [PID 5427] INFO Waiting for server...
+2021-11-19 16:02:03,515 [PID 5427] INFO Cannot find a running Pyre server. Starting a new one...
+2021-11-19 16:02:03,515 [PID 5427] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-19 16:02:03,516 [PID 5427] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-19 16:02:03,516 [PID 5427] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-19 16:02:03,517 [PID 5427] INFO No typeshed specified, looking for it...
+2021-11-19 16:02:03,517 [PID 5427] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-19 16:02:03,520 [PID 5427] INFO Starting server at `BuzzBlogApp`...
+2021-11-19 16:02:03,521 [PID 5427] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_7fn0ldvl.json...
+2021-11-19 16:02:03,521 [PID 5427] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "strict": false,
+  "socket_path": "/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock",
+  "show_error_traces": false,
+  "additional_logging_sections": [
+    "server"
+  ],
+  "watchman_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "taint_model_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib"
+  ],
+  "store_type_check_resolution": false,
+  "critical_files": [
+    {
+      "full_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration"
+    }
+  ]
+}
+2021-11-19 16:02:03,526 [PID 5427] INFO Server is starting in the background.
+
+2021-11-19 16:02:03,979 [PID 5427] INFO Initializing file watching service...
+2021-11-19 16:02:03,993 [PID 5427] INFO Connecting to watchman...
+2021-11-19 16:02:03,993 [PID 5427] INFO Established watchman connection.
+2021-11-19 16:02:04,001 [PID 5427] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-19 16:02:04,001 [PID 5427] INFO Initializing server state from scratch...
+2021-11-19 16:02:04,002 [PID 5427] INFO Building module tracker...
+2021-11-19 16:02:04,265 [PID 5427] PERFORMANCE Module tracker built: 0.26s
+2021-11-19 16:02:04,265 [PID 5427] INFO Building type environment...
+2021-11-19 16:02:04,266 [PID 5427] INFO Parsing 2910 stubs and sources...
+2021-11-19 16:02:11,351 [PID 5427] PERFORMANCE Sources parsed: 7.09s
+2021-11-19 16:02:15,990 [PID 5427] PERFORMANCE Full environment built: 11.72s
+2021-11-19 16:02:16,288 [PID 5427] INFO Checking 6325 functions...
+2021-11-19 16:02:17,630 [PID 5427] INFO Processed 904 of 6325 functions
+2021-11-19 16:02:18,969 [PID 5427] INFO Processed 1808 of 6325 functions
+2021-11-19 16:02:20,341 [PID 5427] INFO Processed 2712 of 6325 functions
+2021-11-19 16:02:21,747 [PID 5427] INFO Processed 3616 of 6325 functions
+2021-11-19 16:02:23,076 [PID 5427] INFO Processed 4520 of 6325 functions
+2021-11-19 16:02:24,743 [PID 5427] INFO Processed 5424 of 6325 functions
+2021-11-19 16:02:27,162 [PID 5427] INFO Processed 6325 of 6325 functions
+2021-11-19 16:02:27,164 [PID 5427] PERFORMANCE Check_TypeCheck: 10.85s
+2021-11-19 16:02:27,164 [PID 5427] MEMORY Shared memory size post-typecheck (size: 49)
+2021-11-19 16:02:27,164 [PID 5427] INFO Postprocessing 2910 sources...
+2021-11-19 16:02:27,395 [PID 5427] INFO Postprocessed 243 of 2910 sources
+2021-11-19 16:02:27,485 [PID 5427] INFO Postprocessed 486 of 2910 sources
+2021-11-19 16:02:27,541 [PID 5427] INFO Postprocessed 729 of 2910 sources
+2021-11-19 16:02:27,606 [PID 5427] INFO Postprocessed 972 of 2910 sources
+2021-11-19 16:02:27,698 [PID 5427] INFO Postprocessed 1215 of 2910 sources
+2021-11-19 16:02:27,815 [PID 5427] INFO Postprocessed 1458 of 2910 sources
+2021-11-19 16:02:27,882 [PID 5427] INFO Postprocessed 1701 of 2910 sources
+2021-11-19 16:02:28,022 [PID 5427] INFO Postprocessed 1944 of 2910 sources
+2021-11-19 16:02:28,125 [PID 5427] INFO Postprocessed 2187 of 2910 sources
+2021-11-19 16:02:28,196 [PID 5427] INFO Postprocessed 2430 of 2910 sources
+2021-11-19 16:02:28,285 [PID 5427] INFO Postprocessed 2673 of 2910 sources
+2021-11-19 16:02:28,389 [PID 5427] INFO Postprocessed 2910 of 2910 sources
+2021-11-19 16:02:28,393 [PID 5427] PERFORMANCE Initialization: 24.37s
+2021-11-19 16:02:28,396 [PID 5427] INFO Waiting for server...
+2021-11-19 16:02:28,455 [PID 5427] PERFORMANCE Server request: 0.05s
+2021-11-19 16:02:28,455 [PID 5427] SERVER Request `(DisplayTypeError())` processed
+2021-11-19 16:02:28,486 [PID 5427] SERVER Connection closed
+2021-11-19 16:02:28,533 [PID 5427] ERROR Found 908 type errors!
+2021-11-19 16:12:26,178 [PID 5508] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-19 16:12:26,179 [PID 5508] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-19 16:12:26,180 [PID 5508] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-19 16:12:26,180 [PID 5508] INFO No typeshed specified, looking for it...
+2021-11-19 16:12:26,181 [PID 5508] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-19 16:12:26,184 [PID 5508] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments__5t3naxv.json...
+2021-11-19 16:12:26,184 [PID 5508] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2021-11-19 16:12:26,238 [PID 5508] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-19 16:12:26,240 [PID 5508] INFO Building module tracker...
+2021-11-19 16:12:26,520 [PID 5508] PERFORMANCE Module tracker built: 0.28s
+2021-11-19 16:12:26,520 [PID 5508] INFO Building type environment...
+2021-11-19 16:12:26,712 [PID 5508] INFO Parsing 2910 stubs and sources...
+2021-11-19 16:12:37,864 [PID 5508] PERFORMANCE Sources parsed: 11.15s
+2021-11-19 16:12:42,981 [PID 5508] PERFORMANCE Full environment built: 16.46s
+2021-11-19 16:12:43,204 [PID 5508] INFO Checking 6325 functions...
+2021-11-19 16:12:44,255 [PID 5508] INFO Processed 904 of 6325 functions
+2021-11-19 16:12:45,475 [PID 5508] INFO Processed 1808 of 6325 functions
+2021-11-19 16:12:46,429 [PID 5508] INFO Processed 2712 of 6325 functions
+2021-11-19 16:12:47,318 [PID 5508] INFO Processed 3616 of 6325 functions
+2021-11-19 16:12:48,361 [PID 5508] INFO Processed 4520 of 6325 functions
+2021-11-19 16:12:49,590 [PID 5508] INFO Processed 5424 of 6325 functions
+2021-11-19 16:12:50,564 [PID 5508] INFO Processed 6325 of 6325 functions
+2021-11-19 16:12:50,565 [PID 5508] PERFORMANCE Check_TypeCheck: 7.36s
+2021-11-19 16:12:50,565 [PID 5508] MEMORY Shared memory size post-typecheck (size: 52)
+2021-11-19 16:12:50,566 [PID 5508] INFO Postprocessing 2910 sources...
+2021-11-19 16:12:50,818 [PID 5508] INFO Postprocessed 243 of 2910 sources
+2021-11-19 16:12:50,908 [PID 5508] INFO Postprocessed 486 of 2910 sources
+2021-11-19 16:12:50,967 [PID 5508] INFO Postprocessed 729 of 2910 sources
+2021-11-19 16:12:51,032 [PID 5508] INFO Postprocessed 972 of 2910 sources
+2021-11-19 16:12:51,118 [PID 5508] INFO Postprocessed 1215 of 2910 sources
+2021-11-19 16:12:51,212 [PID 5508] INFO Postprocessed 1458 of 2910 sources
+2021-11-19 16:12:51,297 [PID 5508] INFO Postprocessed 1701 of 2910 sources
+2021-11-19 16:12:51,465 [PID 5508] INFO Postprocessed 1944 of 2910 sources
+2021-11-19 16:12:51,601 [PID 5508] INFO Postprocessed 2187 of 2910 sources
+2021-11-19 16:12:51,679 [PID 5508] INFO Postprocessed 2430 of 2910 sources
+2021-11-19 16:12:51,738 [PID 5508] INFO Postprocessed 2673 of 2910 sources
+2021-11-19 16:12:51,802 [PID 5508] INFO Postprocessed 2910 of 2910 sources
+2021-11-19 16:12:51,806 [PID 5508] PERFORMANCE Check: 25.56s
+2021-11-19 16:12:51,909 [PID 5508] ERROR Found 908 type errors!
+2021-11-19 16:23:37,857 [PID 5610] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-19 16:23:37,858 [PID 5610] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-19 16:23:37,859 [PID 5610] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-19 16:23:37,859 [PID 5610] INFO No typeshed specified, looking for it...
+2021-11-19 16:23:37,860 [PID 5610] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-19 16:23:37,863 [PID 5610] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_wj6ufxoh.json...
+2021-11-19 16:23:37,863 [PID 5610] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/apigateway"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/apigateway"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2021-11-19 16:23:37,915 [PID 5610] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-19 16:23:37,917 [PID 5610] INFO Building module tracker...
+2021-11-19 16:23:38,167 [PID 5610] PERFORMANCE Module tracker built: 0.25s
+2021-11-19 16:23:38,168 [PID 5610] INFO Building type environment...
+2021-11-19 16:23:38,354 [PID 5610] INFO Parsing 2830 stubs and sources...
+2021-11-19 16:23:47,309 [PID 5610] PERFORMANCE Sources parsed: 8.95s
+2021-11-19 16:23:50,875 [PID 5610] PERFORMANCE Full environment built: 12.70s
+2021-11-19 16:23:51,096 [PID 5610] INFO Checking 1059 functions...
+2021-11-19 16:23:51,636 [PID 5610] INFO Processed 530 of 1059 functions
+2021-11-19 16:23:52,142 [PID 5610] INFO Processed 1059 of 1059 functions
+2021-11-19 16:23:52,143 [PID 5610] PERFORMANCE Check_TypeCheck: 1.05s
+2021-11-19 16:23:52,143 [PID 5610] MEMORY Shared memory size post-typecheck (size: 35)
+2021-11-19 16:23:52,143 [PID 5610] INFO Postprocessing 2830 sources...
+2021-11-19 16:23:52,205 [PID 5610] INFO Postprocessed 236 of 2830 sources
+2021-11-19 16:23:52,253 [PID 5610] INFO Postprocessed 472 of 2830 sources
+2021-11-19 16:23:52,307 [PID 5610] INFO Postprocessed 708 of 2830 sources
+2021-11-19 16:23:52,359 [PID 5610] INFO Postprocessed 944 of 2830 sources
+2021-11-19 16:23:52,436 [PID 5610] INFO Postprocessed 1180 of 2830 sources
+2021-11-19 16:23:52,519 [PID 5610] INFO Postprocessed 1416 of 2830 sources
+2021-11-19 16:23:52,583 [PID 5610] INFO Postprocessed 1652 of 2830 sources
+2021-11-19 16:23:52,696 [PID 5610] INFO Postprocessed 1888 of 2830 sources
+2021-11-19 16:23:52,783 [PID 5610] INFO Postprocessed 2124 of 2830 sources
+2021-11-19 16:23:52,867 [PID 5610] INFO Postprocessed 2360 of 2830 sources
+2021-11-19 16:23:52,921 [PID 5610] INFO Postprocessed 2596 of 2830 sources
+2021-11-19 16:23:52,985 [PID 5610] INFO Postprocessed 2830 of 2830 sources
+2021-11-19 16:23:52,987 [PID 5610] PERFORMANCE Check: 15.07s
+2021-11-19 16:23:53,014 [PID 5610] ERROR Found 152 type errors!
+2021-11-19 18:11:41,455 [PID 5772] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-19 18:11:41,456 [PID 5772] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-19 18:11:41,457 [PID 5772] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-19 18:11:41,457 [PID 5772] INFO No typeshed specified, looking for it...
+2021-11-19 18:11:41,457 [PID 5772] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-19 18:11:41,460 [PID 5772] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_59j43ycc.json...
+2021-11-19 18:11:41,461 [PID 5772] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/uniquepair/service/client"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/uniquepair/service/client"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "additional_logging_sections": [],
+  "show_error_traces": false,
+  "strict": false
+}
+2021-11-19 18:11:42,175 [PID 5772] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-19 18:11:42,178 [PID 5772] INFO Building module tracker...
+2021-11-19 18:11:42,434 [PID 5772] PERFORMANCE Module tracker built: 0.25s
+2021-11-19 18:11:42,434 [PID 5772] INFO Building type environment...
+2021-11-19 18:11:42,743 [PID 5772] INFO Parsing 2815 stubs and sources...
+2021-11-19 18:11:50,900 [PID 5772] PERFORMANCE Sources parsed: 8.16s
+2021-11-19 18:11:54,350 [PID 5772] PERFORMANCE Full environment built: 11.92s
+2021-11-19 18:11:54,574 [PID 5772] INFO Checking 15 functions...
+2021-11-19 18:11:54,587 [PID 5772] INFO Processed 15 of 15 functions
+2021-11-19 18:11:54,588 [PID 5772] PERFORMANCE Check_TypeCheck: 0.01s
+2021-11-19 18:11:54,588 [PID 5772] MEMORY Shared memory size post-typecheck (size: 31)
+2021-11-19 18:11:54,588 [PID 5772] INFO Postprocessing 2815 sources...
+2021-11-19 18:11:54,641 [PID 5772] INFO Postprocessed 235 of 2815 sources
+2021-11-19 18:11:54,692 [PID 5772] INFO Postprocessed 470 of 2815 sources
+2021-11-19 18:11:54,747 [PID 5772] INFO Postprocessed 705 of 2815 sources
+2021-11-19 18:11:54,800 [PID 5772] INFO Postprocessed 940 of 2815 sources
+2021-11-19 18:11:54,881 [PID 5772] INFO Postprocessed 1175 of 2815 sources
+2021-11-19 18:11:54,969 [PID 5772] INFO Postprocessed 1410 of 2815 sources
+2021-11-19 18:11:55,033 [PID 5772] INFO Postprocessed 1645 of 2815 sources
+2021-11-19 18:11:55,146 [PID 5772] INFO Postprocessed 1880 of 2815 sources
+2021-11-19 18:11:55,229 [PID 5772] INFO Postprocessed 2115 of 2815 sources
+2021-11-19 18:11:55,293 [PID 5772] INFO Postprocessed 2350 of 2815 sources
+2021-11-19 18:11:55,347 [PID 5772] INFO Postprocessed 2585 of 2815 sources
+2021-11-19 18:11:55,413 [PID 5772] INFO Postprocessed 2815 of 2815 sources
+2021-11-19 18:11:55,414 [PID 5772] PERFORMANCE Check: 13.24s
+2021-11-19 18:11:55,427 [PID 5772] ERROR Found 4 type errors!
+2021-11-24 16:00:46,322 [PID 4757] INFO Waiting for server...
+2021-11-24 16:00:46,333 [PID 4757] INFO Cannot find a running Pyre server. Starting a new one...
+2021-11-24 16:00:46,333 [PID 4757] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-24 16:00:46,335 [PID 4757] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-24 16:00:46,335 [PID 4757] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-24 16:00:46,336 [PID 4757] INFO No typeshed specified, looking for it...
+2021-11-24 16:00:46,337 [PID 4757] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-24 16:00:46,364 [PID 4757] INFO Starting server at `BuzzBlogApp`...
+2021-11-24 16:00:46,364 [PID 4757] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_dhps0mj3.json...
+2021-11-24 16:00:46,365 [PID 4757] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/uniquepair/service/client"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/uniquepair/service/client"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "strict": false,
+  "socket_path": "/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock",
+  "show_error_traces": false,
+  "additional_logging_sections": [
+    "server"
+  ],
+  "watchman_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "taint_model_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib"
+  ],
+  "store_type_check_resolution": false,
+  "critical_files": [
+    {
+      "full_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration"
+    }
+  ]
+}
+2021-11-24 16:00:46,369 [PID 4757] INFO Server is starting in the background.
+
+2021-11-24 16:00:47,068 [PID 4757] WARNING Pyre needs to restart as it is notified on potential changes in `/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration`
+2021-11-24 16:00:47,074 [PID 4757] INFO Initializing file watching service...
+2021-11-24 16:00:47,088 [PID 4757] INFO Connecting to watchman...
+2021-11-24 16:00:47,088 [PID 4757] INFO Established watchman connection.
+2021-11-24 16:00:47,098 [PID 4757] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-24 16:00:47,099 [PID 4757] INFO Initializing server state from scratch...
+2021-11-24 16:00:47,100 [PID 4757] INFO Building module tracker...
+2021-11-24 16:00:47,536 [PID 4757] PERFORMANCE Module tracker built: 0.43s
+2021-11-24 16:00:47,537 [PID 4757] INFO Building type environment...
+2021-11-24 16:00:47,537 [PID 4757] INFO Parsing 2815 stubs and sources...
+2021-11-24 16:00:56,136 [PID 4757] PERFORMANCE Sources parsed: 8.60s
+2021-11-24 16:00:59,778 [PID 4757] PERFORMANCE Full environment built: 12.24s
+2021-11-24 16:00:59,994 [PID 4757] INFO Checking 15 functions...
+2021-11-24 16:01:00,026 [PID 4757] INFO Processed 15 of 15 functions
+2021-11-24 16:01:00,027 [PID 4757] PERFORMANCE Check_TypeCheck: 0.03s
+2021-11-24 16:01:00,027 [PID 4757] MEMORY Shared memory size post-typecheck (size: 31)
+2021-11-24 16:01:00,027 [PID 4757] INFO Postprocessing 2815 sources...
+2021-11-24 16:01:00,083 [PID 4757] INFO Postprocessed 235 of 2815 sources
+2021-11-24 16:01:00,132 [PID 4757] INFO Postprocessed 470 of 2815 sources
+2021-11-24 16:01:00,188 [PID 4757] INFO Postprocessed 705 of 2815 sources
+2021-11-24 16:01:00,241 [PID 4757] INFO Postprocessed 940 of 2815 sources
+2021-11-24 16:01:00,322 [PID 4757] INFO Postprocessed 1175 of 2815 sources
+2021-11-24 16:01:00,408 [PID 4757] INFO Postprocessed 1410 of 2815 sources
+2021-11-24 16:01:00,473 [PID 4757] INFO Postprocessed 1645 of 2815 sources
+2021-11-24 16:01:00,586 [PID 4757] INFO Postprocessed 1880 of 2815 sources
+2021-11-24 16:01:00,668 [PID 4757] INFO Postprocessed 2115 of 2815 sources
+2021-11-24 16:01:00,733 [PID 4757] INFO Postprocessed 2350 of 2815 sources
+2021-11-24 16:01:00,786 [PID 4757] INFO Postprocessed 2585 of 2815 sources
+2021-11-24 16:01:00,853 [PID 4757] INFO Postprocessed 2815 of 2815 sources
+2021-11-24 16:01:00,855 [PID 4757] PERFORMANCE Initialization: 13.75s
+2021-11-24 16:01:00,855 [PID 4757] INFO Server state initialized.
+2021-11-24 16:01:00,864 [PID 4757] INFO Waiting for server...
+2021-11-24 16:01:00,876 [PID 4757] ERROR Found 4 type errors!
+2021-11-24 16:05:58,521 [PID 4915] INFO Waiting for server...
+2021-11-24 16:05:58,526 [PID 4915] SERVER Connection established
+2021-11-24 16:05:58,527 [PID 4915] SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:05:58,527 [PID 4915] PERFORMANCE Server request: 0.00s
+2021-11-24 16:05:58,527 [PID 4915] SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:05:58,527 [PID 4915] SERVER Connection closed
+2021-11-24 16:05:58,528 [PID 4915] ERROR Found 4 type errors!
+2021-11-24 16:06:37,435 [PID 4961] INFO Waiting for server...
+2021-11-24 16:06:37,440 [PID 4961] SERVER Connection established
+2021-11-24 16:06:37,440 [PID 4961] SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:06:37,441 [PID 4961] PERFORMANCE Server request: 0.00s
+2021-11-24 16:06:37,441 [PID 4961] SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:06:37,441 [PID 4961] SERVER Connection closed
+2021-11-24 16:06:37,442 [PID 4961] ERROR Found 4 type errors!
+2021-11-24 16:08:25,817 [PID 4991] INFO Waiting for server...
+2021-11-24 16:08:25,822 [PID 4991] INFO Cannot find a running Pyre server. Starting a new one...
+2021-11-24 16:08:25,823 [PID 4991] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-24 16:08:25,823 [PID 4991] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-24 16:08:25,823 [PID 4991] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-24 16:08:25,823 [PID 4991] INFO No typeshed specified, looking for it...
+2021-11-24 16:08:25,824 [PID 4991] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-24 16:08:25,826 [PID 4991] INFO Starting server at `BuzzBlogApp`...
+2021-11-24 16:08:25,827 [PID 4991] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_7vzu840s.json...
+2021-11-24 16:08:25,827 [PID 4991] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "strict": false,
+  "socket_path": "/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock",
+  "show_error_traces": false,
+  "additional_logging_sections": [
+    "server"
+  ],
+  "watchman_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "taint_model_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib"
+  ],
+  "store_type_check_resolution": false,
+  "critical_files": [
+    {
+      "full_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration"
+    }
+  ]
+}
+2021-11-24 16:08:25,833 [PID 4991] INFO Server is starting in the background.
+
+2021-11-24 16:08:25,866 [PID 4991] WARNING Pyre needs to restart as it is notified on potential changes in `/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration`
+2021-11-24 16:08:25,869 [PID 4991] INFO Initializing file watching service...
+2021-11-24 16:08:26,052 [PID 4991] INFO Connecting to watchman...
+2021-11-24 16:08:26,053 [PID 4991] INFO Established watchman connection.
+2021-11-24 16:08:26,060 [PID 4991] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-24 16:08:26,061 [PID 4991] INFO Initializing server state from scratch...
+2021-11-24 16:08:26,062 [PID 4991] INFO Building module tracker...
+2021-11-24 16:08:26,311 [PID 4991] PERFORMANCE Module tracker built: 0.25s
+2021-11-24 16:08:26,311 [PID 4991] INFO Building type environment...
+2021-11-24 16:08:26,311 [PID 4991] INFO Parsing 2815 stubs and sources...
+2021-11-24 16:08:34,736 [PID 4991] PERFORMANCE Sources parsed: 8.42s
+2021-11-24 16:08:38,531 [PID 4991] PERFORMANCE Full environment built: 12.22s
+2021-11-24 16:08:38,759 [PID 4991] INFO Checking 17 functions...
+2021-11-24 16:08:38,781 [PID 4991] INFO Processed 17 of 17 functions
+2021-11-24 16:08:38,782 [PID 4991] PERFORMANCE Check_TypeCheck: 0.02s
+2021-11-24 16:08:38,782 [PID 4991] MEMORY Shared memory size post-typecheck (size: 31)
+2021-11-24 16:08:38,782 [PID 4991] INFO Postprocessing 2815 sources...
+2021-11-24 16:08:38,837 [PID 4991] INFO Postprocessed 235 of 2815 sources
+2021-11-24 16:08:38,885 [PID 4991] INFO Postprocessed 470 of 2815 sources
+2021-11-24 16:08:38,940 [PID 4991] INFO Postprocessed 705 of 2815 sources
+2021-11-24 16:08:38,994 [PID 4991] INFO Postprocessed 940 of 2815 sources
+2021-11-24 16:08:39,076 [PID 4991] INFO Postprocessed 1175 of 2815 sources
+2021-11-24 16:08:39,170 [PID 4991] INFO Postprocessed 1410 of 2815 sources
+2021-11-24 16:08:39,235 [PID 4991] INFO Postprocessed 1645 of 2815 sources
+2021-11-24 16:08:39,348 [PID 4991] INFO Postprocessed 1880 of 2815 sources
+2021-11-24 16:08:39,430 [PID 4991] INFO Postprocessed 2115 of 2815 sources
+2021-11-24 16:08:39,495 [PID 4991] INFO Postprocessed 2350 of 2815 sources
+2021-11-24 16:08:39,549 [PID 4991] INFO Postprocessed 2585 of 2815 sources
+2021-11-24 16:08:39,615 [PID 4991] INFO Postprocessed 2815 of 2815 sources
+2021-11-24 16:08:39,617 [PID 4991] PERFORMANCE Initialization: 13.56s
+2021-11-24 16:08:39,626 [PID 4991] INFO Waiting for server...
+2021-11-24 16:08:39,633 [PID 4991] ERROR Found 6 type errors!
+2021-11-24 16:09:42,653 [PID 5054] INFO Waiting for server...
+2021-11-24 16:09:42,658 [PID 5054] INFO Cannot find a running Pyre server. Starting a new one...
+2021-11-24 16:09:42,659 [PID 5054] INFO No binary specified, looking for `pyre.bin` in PATH
+2021-11-24 16:09:42,659 [PID 5054] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 1.
+2021-11-24 16:09:42,659 [PID 5054] WARNING '/Users/chandanathippesh/Library/Python/3.10/lib/python/site-packages' does not match any paths.
+2021-11-24 16:09:42,660 [PID 5054] INFO No typeshed specified, looking for it...
+2021-11-24 16:09:42,660 [PID 5054] INFO Found: `/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed`
+2021-11-24 16:09:42,662 [PID 5054] INFO Starting server at `BuzzBlogApp`...
+2021-11-24 16:09:42,663 [PID 5054] INFO Writing arguments into /var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_arguments_5mde_y3d.json...
+2021-11-24 16:09:42,663 [PID 5054] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/Users/chandanathippesh/Desktop/BuzzBlogApp/app"
+    ]
+  },
+  "search_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib/python3.10/site-packages",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stdlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Flask",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Jinja2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Markdown",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/MarkupSafe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pillow",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Pygments",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/Werkzeug",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/annoy",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/appdirs",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/babel",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/backports_abc",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/bleach",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/boto",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/braintree",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cachetools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/caldav",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/certifi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/characteristic",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/chardet",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/colorama",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/commonmark",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/contextvars",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/croniter",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/cryptography",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dataclasses",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/dateparser",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/decorator",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docopt",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/docutils",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/editdistance",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/emoji",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/filelock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/first",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/freezegun",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/frozendict",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/html5lib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/httplib2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/itsdangerous",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jmespath",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mock",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/orjson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/paramiko",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/polib",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/prettytable",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/protobuf",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pycurl",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pysftp",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pytz",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/redis",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/requests",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/retry",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/selenium",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/setuptools",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/simplejson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/six",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/slumber",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/stripe",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tabulate",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/termcolor",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toml",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/toposort",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/ujson",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/vobject",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/waitress",
+    "/Users/chandanathippesh/.venvs/venv/lib/pyre_check/typeshed/stubs/xxhash"
+  ],
+  "excludes": [],
+  "checked_directory_allowlist": [
+    "/Users/chandanathippesh/Desktop/BuzzBlogApp/app"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre",
+  "global_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 0
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 1,
+  "strict": false,
+  "socket_path": "/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock",
+  "show_error_traces": false,
+  "additional_logging_sections": [
+    "server"
+  ],
+  "watchman_root": "/Users/chandanathippesh/Desktop/BuzzBlogApp",
+  "taint_model_paths": [
+    "/Users/chandanathippesh/.venvs/venv/lib"
+  ],
+  "store_type_check_resolution": false,
+  "critical_files": [
+    {
+      "full_path": "/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration"
+    }
+  ]
+}
+2021-11-24 16:09:42,667 [PID 5054] INFO Server is starting in the background.
+
+2021-11-24 16:09:43,009 [PID 5054] WARNING Pyre needs to restart as it is notified on potential changes in `/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration`
+2021-11-24 16:09:43,012 [PID 5054] INFO Initializing file watching service...
+2021-11-24 16:09:43,139 [PID 5054] INFO Connecting to watchman...
+2021-11-24 16:09:43,139 [PID 5054] INFO Established watchman connection.
+2021-11-24 16:09:43,147 [PID 5054] INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-24 16:09:43,147 [PID 5054] INFO Initializing server state from scratch...
+2021-11-24 16:09:43,149 [PID 5054] INFO Building module tracker...
+2021-11-24 16:09:43,418 [PID 5054] PERFORMANCE Module tracker built: 0.27s
+2021-11-24 16:09:43,420 [PID 5054] INFO Building type environment...
+2021-11-24 16:09:43,420 [PID 5054] INFO Parsing 2910 stubs and sources...
+2021-11-24 16:09:53,916 [PID 5054] PERFORMANCE Sources parsed: 10.50s
+2021-11-24 16:09:58,804 [PID 5054] PERFORMANCE Full environment built: 15.39s
+2021-11-24 16:09:59,039 [PID 5054] INFO Checking 6631 functions...
+2021-11-24 16:10:00,378 [PID 5054] INFO Processed 948 of 6631 functions
+2021-11-24 16:10:01,734 [PID 5054] INFO Processed 1896 of 6631 functions
+2021-11-24 16:10:02,993 [PID 5054] INFO Processed 2844 of 6631 functions
+2021-11-24 16:10:04,095 [PID 5054] INFO Processed 3792 of 6631 functions
+2021-11-24 16:10:05,254 [PID 5054] INFO Processed 4740 of 6631 functions
+2021-11-24 16:10:06,448 [PID 5054] INFO Processed 5688 of 6631 functions
+2021-11-24 16:10:07,539 [PID 5054] INFO Processed 6631 of 6631 functions
+2021-11-24 16:10:07,539 [PID 5054] PERFORMANCE Check_TypeCheck: 8.50s
+2021-11-24 16:10:07,539 [PID 5054] MEMORY Shared memory size post-typecheck (size: 49)
+2021-11-24 16:10:07,539 [PID 5054] INFO Postprocessing 2910 sources...
+2021-11-24 16:10:07,661 [PID 5054] INFO Postprocessed 243 of 2910 sources
+2021-11-24 16:10:07,710 [PID 5054] INFO Postprocessed 486 of 2910 sources
+2021-11-24 16:10:07,763 [PID 5054] INFO Postprocessed 729 of 2910 sources
+2021-11-24 16:10:07,849 [PID 5054] INFO Postprocessed 972 of 2910 sources
+2021-11-24 16:10:07,924 [PID 5054] INFO Postprocessed 1215 of 2910 sources
+2021-11-24 16:10:08,021 [PID 5054] INFO Postprocessed 1458 of 2910 sources
+2021-11-24 16:10:08,086 [PID 5054] INFO Postprocessed 1701 of 2910 sources
+2021-11-24 16:10:08,196 [PID 5054] INFO Postprocessed 1944 of 2910 sources
+2021-11-24 16:10:08,314 [PID 5054] INFO Postprocessed 2187 of 2910 sources
+2021-11-24 16:10:08,380 [PID 5054] INFO Postprocessed 2430 of 2910 sources
+2021-11-24 16:10:08,432 [PID 5054] INFO Postprocessed 2673 of 2910 sources
+2021-11-24 16:10:08,520 [PID 5054] INFO Postprocessed 2910 of 2910 sources
+2021-11-24 16:10:08,525 [PID 5054] PERFORMANCE Initialization: 25.38s
+2021-11-24 16:10:08,525 [PID 5054] INFO Server state initialized.
+2021-11-24 16:10:08,526 [PID 5054] INFO Server has started listening on socket `/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock`
+2021-11-24 16:10:08,531 [PID 5054] INFO Waiting for server...
+2021-11-24 16:10:08,570 [PID 5054] PERFORMANCE Server request: 0.03s
+2021-11-24 16:10:08,570 [PID 5054] SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:10:08,592 [PID 5054] SERVER Connection closed
+2021-11-24 16:10:08,644 [PID 5054] ERROR Found 908 type errors!

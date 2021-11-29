@@ -1,0 +1,40 @@
+2021-11-24 16:08:25 WARNING Pyre needs to restart as it is notified on potential changes in `/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration`
+2021-11-24 16:08:25 INFO Initializing file watching service...
+2021-11-24 16:08:26 INFO Connecting to watchman...
+2021-11-24 16:08:26 INFO Established watchman connection.
+2021-11-24 16:08:26 INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-24 16:08:26 INFO Initializing server state from scratch...
+2021-11-24 16:08:26 INFO Building module tracker...
+2021-11-24 16:08:26 PERFORMANCE Module tracker built: 0.25s
+2021-11-24 16:08:26 INFO Building type environment...
+2021-11-24 16:08:26 INFO Parsing 2815 stubs and sources...
+2021-11-24 16:08:34 PERFORMANCE Sources parsed: 8.42s
+2021-11-24 16:08:38 PERFORMANCE Full environment built: 12.22s
+2021-11-24 16:08:38 INFO Checking 17 functions...
+2021-11-24 16:08:38 PROGRESS Processed 17 of 17 functions
+2021-11-24 16:08:38 PERFORMANCE Check_TypeCheck: 0.02s
+2021-11-24 16:08:38 MEMORY Shared memory size post-typecheck (size: 31)
+2021-11-24 16:08:38 PROGRESS Postprocessing 2815 sources...
+2021-11-24 16:08:38 PROGRESS Postprocessed 235 of 2815 sources
+2021-11-24 16:08:38 PROGRESS Postprocessed 470 of 2815 sources
+2021-11-24 16:08:38 PROGRESS Postprocessed 705 of 2815 sources
+2021-11-24 16:08:38 PROGRESS Postprocessed 940 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 1175 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 1410 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 1645 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 1880 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 2115 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 2350 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 2585 of 2815 sources
+2021-11-24 16:08:39 PROGRESS Postprocessed 2815 of 2815 sources
+2021-11-24 16:08:39 PERFORMANCE Initialization: 13.56s
+2021-11-24 16:08:39 INFO Server state initialized.
+2021-11-24 16:08:39 INFO Server has started listening on socket `/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock`
+2021-11-24 16:08:39 SERVER Connection established
+2021-11-24 16:08:39 SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:08:39 PERFORMANCE Server request: 0.00s
+2021-11-24 16:08:39 SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:08:39 SERVER Connection closed
+2021-11-24 16:09:11 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration))...
+2021-11-24 16:09:11 INFO Server interrupted with signal `sigint`
+2021-11-24 16:09:11 INFO Server is going down. Cleaning up...

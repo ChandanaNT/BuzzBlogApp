@@ -1,0 +1,274 @@
+2021-11-24 16:00:47 WARNING Pyre needs to restart as it is notified on potential changes in `/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration`
+2021-11-24 16:00:47 INFO Initializing file watching service...
+2021-11-24 16:00:47 INFO Connecting to watchman...
+2021-11-24 16:00:47 INFO Established watchman connection.
+2021-11-24 16:00:47 INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-24 16:00:47 INFO Initializing server state from scratch...
+2021-11-24 16:00:47 INFO Building module tracker...
+2021-11-24 16:00:47 PERFORMANCE Module tracker built: 0.43s
+2021-11-24 16:00:47 INFO Building type environment...
+2021-11-24 16:00:47 INFO Parsing 2815 stubs and sources...
+2021-11-24 16:00:56 PERFORMANCE Sources parsed: 8.60s
+2021-11-24 16:00:59 PERFORMANCE Full environment built: 12.24s
+2021-11-24 16:00:59 INFO Checking 15 functions...
+2021-11-24 16:01:00 PROGRESS Processed 15 of 15 functions
+2021-11-24 16:01:00 PERFORMANCE Check_TypeCheck: 0.03s
+2021-11-24 16:01:00 MEMORY Shared memory size post-typecheck (size: 31)
+2021-11-24 16:01:00 PROGRESS Postprocessing 2815 sources...
+2021-11-24 16:01:00 PROGRESS Postprocessed 235 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 470 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 705 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 940 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 1175 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 1410 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 1645 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 1880 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 2115 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 2350 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 2585 of 2815 sources
+2021-11-24 16:01:00 PROGRESS Postprocessed 2815 of 2815 sources
+2021-11-24 16:01:00 PERFORMANCE Initialization: 13.75s
+2021-11-24 16:01:00 INFO Server state initialized.
+2021-11-24 16:01:00 INFO Server has started listening on socket `/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock`
+2021-11-24 16:01:00 SERVER Connection established
+2021-11-24 16:01:00 SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:01:00 PERFORMANCE Server request: 0.00s
+2021-11-24 16:01:00 SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:01:00 SERVER Connection closed
+2021-11-24 16:03:25 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:03:25 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:03:25 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:03:25 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:03:25 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:03:26 INFO Repopulating the environment...
+2021-11-24 16:03:26 INFO Checking 0 functions...
+2021-11-24 16:03:26 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:03:26 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:03:26 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:03:26 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:03:26 MEMORY Shared memory size (size: 31)
+2021-11-24 16:03:26 INFO Number of new errors = 0
+2021-11-24 16:03:26 PERFORMANCE Incremental check: 0.28s
+2021-11-24 16:03:26 PERFORMANCE Server request: 0.29s
+2021-11-24 16:03:26 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:50 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:05:50 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:05:50 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:05:50 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:05:50 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:05:51 INFO Repopulating the environment...
+2021-11-24 16:05:51 INFO Checking 0 functions...
+2021-11-24 16:05:51 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:05:51 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:05:51 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:05:51 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:05:51 MEMORY Shared memory size (size: 31)
+2021-11-24 16:05:51 INFO Number of new errors = 0
+2021-11-24 16:05:51 PERFORMANCE Incremental check: 0.16s
+2021-11-24 16:05:51 PERFORMANCE Server request: 0.17s
+2021-11-24 16:05:51 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:51 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:05:51 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:05:51 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:05:51 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:05:51 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:05:51 INFO Repopulating the environment...
+2021-11-24 16:05:51 INFO Checking 0 functions...
+2021-11-24 16:05:51 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:05:51 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:05:51 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:05:51 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:05:51 MEMORY Shared memory size (size: 31)
+2021-11-24 16:05:51 INFO Number of new errors = 0
+2021-11-24 16:05:51 PERFORMANCE Incremental check: 0.09s
+2021-11-24 16:05:51 PERFORMANCE Server request: 0.09s
+2021-11-24 16:05:51 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:51 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:05:51 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:05:51 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:05:51 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:05:51 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:05:51 INFO Repopulating the environment...
+2021-11-24 16:05:51 INFO Checking 0 functions...
+2021-11-24 16:05:51 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:05:51 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:05:51 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:05:51 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:05:51 MEMORY Shared memory size (size: 31)
+2021-11-24 16:05:51 INFO Number of new errors = 0
+2021-11-24 16:05:51 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:05:51 PERFORMANCE Server request: 0.09s
+2021-11-24 16:05:51 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:52 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:05:52 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:05:52 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:05:52 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:05:52 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:05:52 INFO Repopulating the environment...
+2021-11-24 16:05:52 INFO Checking 0 functions...
+2021-11-24 16:05:52 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:05:52 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:05:52 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:05:52 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:05:52 MEMORY Shared memory size (size: 31)
+2021-11-24 16:05:52 INFO Number of new errors = 0
+2021-11-24 16:05:52 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:05:52 PERFORMANCE Server request: 0.09s
+2021-11-24 16:05:52 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:53 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:05:53 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:05:53 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:05:53 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:05:53 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:05:53 INFO Repopulating the environment...
+2021-11-24 16:05:53 INFO Checking 0 functions...
+2021-11-24 16:05:53 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:05:53 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:05:53 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:05:53 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:05:53 MEMORY Shared memory size (size: 31)
+2021-11-24 16:05:53 INFO Number of new errors = 0
+2021-11-24 16:05:53 PERFORMANCE Incremental check: 0.09s
+2021-11-24 16:05:53 PERFORMANCE Server request: 0.09s
+2021-11-24 16:05:53 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:05:58 SERVER Connection established
+2021-11-24 16:05:58 SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:05:58 PERFORMANCE Server request: 0.00s
+2021-11-24 16:05:58 SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:05:58 SERVER Connection closed
+2021-11-24 16:06:09 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:09 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:09 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:09 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:09 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:10 INFO Repopulating the environment...
+2021-11-24 16:06:10 INFO Checking 0 functions...
+2021-11-24 16:06:10 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:10 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:10 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:10 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:10 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:10 INFO Number of new errors = 0
+2021-11-24 16:06:10 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:06:10 PERFORMANCE Server request: 0.08s
+2021-11-24 16:06:10 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:10 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:10 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:10 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:10 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:10 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:10 INFO Repopulating the environment...
+2021-11-24 16:06:10 INFO Checking 0 functions...
+2021-11-24 16:06:10 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:10 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:10 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:10 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:10 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:10 INFO Number of new errors = 0
+2021-11-24 16:06:10 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:06:10 PERFORMANCE Server request: 0.09s
+2021-11-24 16:06:10 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:12 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:12 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:12 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:12 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:12 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:12 INFO Repopulating the environment...
+2021-11-24 16:06:12 INFO Checking 0 functions...
+2021-11-24 16:06:12 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:12 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:12 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:12 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:12 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:12 INFO Number of new errors = 0
+2021-11-24 16:06:12 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:06:12 PERFORMANCE Server request: 0.08s
+2021-11-24 16:06:12 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:14 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:14 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:14 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:14 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:14 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:14 INFO Repopulating the environment...
+2021-11-24 16:06:14 INFO Checking 0 functions...
+2021-11-24 16:06:14 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:14 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:14 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:14 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:14 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:14 INFO Number of new errors = 0
+2021-11-24 16:06:14 PERFORMANCE Incremental check: 0.10s
+2021-11-24 16:06:14 PERFORMANCE Server request: 0.11s
+2021-11-24 16:06:14 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:30 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:30 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:30 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:30 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:30 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:30 INFO Repopulating the environment...
+2021-11-24 16:06:30 INFO Checking 0 functions...
+2021-11-24 16:06:30 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:30 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:30 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:30 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:30 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:30 INFO Number of new errors = 0
+2021-11-24 16:06:30 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:06:30 PERFORMANCE Server request: 0.09s
+2021-11-24 16:06:30 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:31 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:31 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:31 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:31 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:31 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:31 INFO Repopulating the environment...
+2021-11-24 16:06:31 INFO Checking 0 functions...
+2021-11-24 16:06:31 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:31 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:31 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:31 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:31 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:31 INFO Number of new errors = 0
+2021-11-24 16:06:31 PERFORMANCE Incremental check: 0.09s
+2021-11-24 16:06:31 PERFORMANCE Server request: 0.09s
+2021-11-24 16:06:31 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:32 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:32 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:32 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:32 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:32 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:32 INFO Repopulating the environment...
+2021-11-24 16:06:32 INFO Checking 0 functions...
+2021-11-24 16:06:32 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:32 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:32 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:32 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:32 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:32 INFO Number of new errors = 0
+2021-11-24 16:06:32 PERFORMANCE Incremental check: 0.08s
+2021-11-24 16:06:32 PERFORMANCE Server request: 0.09s
+2021-11-24 16:06:32 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:32 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))...
+2021-11-24 16:06:32 WARNING `/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py` not found in search path.
+2021-11-24 16:06:32 SERVER Explicit Module Update: (explicit_updates())
+2021-11-24 16:06:32 SERVER Implicit Module Update: (implicit_updates())
+2021-11-24 16:06:32 PERFORMANCE Module tracker updated: 0.00s
+2021-11-24 16:06:32 INFO Repopulating the environment...
+2021-11-24 16:06:32 INFO Checking 0 functions...
+2021-11-24 16:06:32 PROGRESS Processed 0 of 0 functions
+2021-11-24 16:06:32 PERFORMANCE Check_TypeCheck: 0.00s
+2021-11-24 16:06:32 PROGRESS Postprocessing 0 sources...
+2021-11-24 16:06:32 PROGRESS Postprocessed 0 of 0 sources
+2021-11-24 16:06:32 MEMORY Shared memory size (size: 31)
+2021-11-24 16:06:32 INFO Number of new errors = 0
+2021-11-24 16:06:32 PERFORMANCE Incremental check: 0.09s
+2021-11-24 16:06:32 PERFORMANCE Server request: 0.09s
+2021-11-24 16:06:32 SERVER Request `(IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/app/like/service/client/src/like_client.py))` processed
+2021-11-24 16:06:37 SERVER Connection established
+2021-11-24 16:06:37 SERVER Processing request (DisplayTypeError())...
+2021-11-24 16:06:37 PERFORMANCE Server request: 0.00s
+2021-11-24 16:06:37 SERVER Request `(DisplayTypeError())` processed
+2021-11-24 16:06:37 SERVER Connection closed
+2021-11-24 16:08:20 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration))...
+2021-11-24 16:08:20 INFO Server interrupted with signal `sigint`
+2021-11-24 16:08:20 INFO Server is going down. Cleaning up...
