@@ -1,0 +1,45 @@
+2021-11-19 16:02:03 INFO Initializing file watching service...
+2021-11-19 16:02:03 INFO Connecting to watchman...
+2021-11-19 16:02:03 INFO Established watchman connection.
+2021-11-19 16:02:04 INFO Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2021-11-19 16:02:04 INFO Initializing server state from scratch...
+2021-11-19 16:02:04 INFO Building module tracker...
+2021-11-19 16:02:04 PERFORMANCE Module tracker built: 0.26s
+2021-11-19 16:02:04 INFO Building type environment...
+2021-11-19 16:02:04 INFO Parsing 2910 stubs and sources...
+2021-11-19 16:02:11 PERFORMANCE Sources parsed: 7.09s
+2021-11-19 16:02:15 PERFORMANCE Full environment built: 11.72s
+2021-11-19 16:02:16 INFO Checking 6325 functions...
+2021-11-19 16:02:17 PROGRESS Processed 904 of 6325 functions
+2021-11-19 16:02:18 PROGRESS Processed 1808 of 6325 functions
+2021-11-19 16:02:20 PROGRESS Processed 2712 of 6325 functions
+2021-11-19 16:02:21 PROGRESS Processed 3616 of 6325 functions
+2021-11-19 16:02:23 PROGRESS Processed 4520 of 6325 functions
+2021-11-19 16:02:24 PROGRESS Processed 5424 of 6325 functions
+2021-11-19 16:02:27 PROGRESS Processed 6325 of 6325 functions
+2021-11-19 16:02:27 PERFORMANCE Check_TypeCheck: 10.85s
+2021-11-19 16:02:27 MEMORY Shared memory size post-typecheck (size: 49)
+2021-11-19 16:02:27 PROGRESS Postprocessing 2910 sources...
+2021-11-19 16:02:27 PROGRESS Postprocessed 243 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 486 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 729 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 972 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 1215 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 1458 of 2910 sources
+2021-11-19 16:02:27 PROGRESS Postprocessed 1701 of 2910 sources
+2021-11-19 16:02:28 PROGRESS Postprocessed 1944 of 2910 sources
+2021-11-19 16:02:28 PROGRESS Postprocessed 2187 of 2910 sources
+2021-11-19 16:02:28 PROGRESS Postprocessed 2430 of 2910 sources
+2021-11-19 16:02:28 PROGRESS Postprocessed 2673 of 2910 sources
+2021-11-19 16:02:28 PROGRESS Postprocessed 2910 of 2910 sources
+2021-11-19 16:02:28 PERFORMANCE Initialization: 24.37s
+2021-11-19 16:02:28 INFO Server state initialized.
+2021-11-19 16:02:28 INFO Server has started listening on socket `/var/folders/j6/4t9c1p31569dhpfjbtsxj1180000gn/T/pyre_server_648d99a94f8429321aa2e4c47fc91e54.sock`
+2021-11-19 16:02:28 SERVER Connection established
+2021-11-19 16:02:28 SERVER Processing request (DisplayTypeError())...
+2021-11-19 16:02:28 PERFORMANCE Server request: 0.05s
+2021-11-19 16:02:28 SERVER Request `(DisplayTypeError())` processed
+2021-11-19 16:02:28 SERVER Connection closed
+2021-11-19 16:23:28 SERVER Processing request (IncrementalUpdate(/Users/chandanathippesh/Desktop/BuzzBlogApp/.pyre_configuration))...
+2021-11-19 16:23:28 INFO Server interrupted with signal `sigint`
+2021-11-19 16:23:28 INFO Server is going down. Cleaning up...
