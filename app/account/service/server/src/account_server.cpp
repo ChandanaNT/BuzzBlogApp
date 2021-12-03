@@ -15,16 +15,16 @@
 #include <buzzblog/base_server.h>
 
 
-using namespace apache::thrift;
-using namespace apache::thrift::protocol;
-using namespace apache::thrift::transport;
-using namespace apache::thrift::server;
+using apache::thrift;
+using apache::thrift::protocol;
+using apache::thrift::transport;
+using apache::thrift::server;
 
-using namespace gen;
+using gen;
 
 
 class TAccountServiceHandler : public BaseServer, public TAccountServiceIf {
-private:
+ private:
   bool validate_attributes(const std::string& username,
       const std::string& password, const std::string& first_name,
       const std::string& last_name) {
@@ -34,7 +34,7 @@ private:
         last_name.size() > 0 && last_name.size() <= 32);
   }
 
-public:
+ public:
   TAccountServiceHandler(const std::string& backend_filepath,
       const std::string& postgres_user, const std::string& postgres_password,
       const std::string& postgres_dbname)
@@ -51,7 +51,7 @@ public:
         "SELECT id, created_at, active, password, first_name, last_name "
         "FROM Accounts "
         "WHERE username = '%s'";
-    sprintf(query_str, query_fmt, username.c_str());
+    snprintf(query_str, sizeof(query_str), query_fmt, username.c_str());
 
     // Execute query.
     pqxx::connection conn(account_db_conn_str);
@@ -96,8 +96,8 @@ public:
             "last_name) "
         "VALUES (extract(epoch from now()), '%s', '%s', '%s', '%s') "
         "RETURNING id, created_at";
-    sprintf(query_str, query_fmt, username.c_str(), password.c_str(),
-        first_name.c_str(), last_name.c_str());
+    snprintf(query_str, sizeof(query_str), query_fmt, username.c_str(),
+               password.c_str(), first_name.c_str(), last_name.c_str());
 
     // Execute query.
     pqxx::connection conn(account_db_conn_str);
@@ -129,7 +129,7 @@ public:
         "SELECT created_at, active, username, first_name, last_name "
         "FROM Accounts "
         "WHERE id = %d";
-    sprintf(query_str, query_fmt, account_id);
+    snprintf(query_str, sizeof(query_str), query_fmt, account_id);
 
     // Execute query.
     pqxx::connection conn(account_db_conn_str);
@@ -210,8 +210,8 @@ public:
         "SET password = '%s', first_name = '%s', last_name = '%s' "
         "WHERE id = %d "
         "RETURNING created_at, active, username";
-    sprintf(query_str, query_fmt, password.c_str(), first_name.c_str(),
-        last_name.c_str(), account_id);
+    snprintf(query_str, sizeof(query_str), query_fmt, password.c_str(),
+              first_name.c_str(), last_name.c_str(), account_id);
 
     // Execute query.
     pqxx::connection conn(account_db_conn_str);
@@ -246,7 +246,7 @@ public:
         "SET active = FALSE "
         "WHERE id = %d "
         "RETURNING id";
-    sprintf(query_str, query_fmt, account_id);
+    snprintf(query_str, sizeof(query_str), query_fmt, account_id);
 
     // Execute query.
     pqxx::connection conn(account_db_conn_str);
