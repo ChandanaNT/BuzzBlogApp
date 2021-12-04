@@ -14,16 +14,16 @@
 #include <buzzblog/base_server.h>
 
 
-using namespace apache::thrift;
-using namespace apache::thrift::protocol;
-using namespace apache::thrift::transport;
-using namespace apache::thrift::server;
+using apache::thrift;
+using apache::thrift::protocol;
+using apache::thrift::transport;
+using apache::thrift::server;
 
-using namespace gen;
+using gen;
 
 
 class TFollowServiceHandler : public BaseServer, public TFollowServiceIf {
-public:
+ public:
   TFollowServiceHandler(const std::string& backend_filepath,
       const std::string& postgres_user, const std::string& postgres_password,
       const std::string& postgres_dbname)
