@@ -4,6 +4,7 @@
 #include <iostream>
 #include <memory>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include <yaml-cpp/yaml.h>
@@ -16,7 +17,7 @@
 
 
 class BaseServer {
-protected:
+ protected:
   BaseServer(const std::string& backend_filepath,
       const std::string& postgres_user,
       const std::string& postgres_password,
@@ -30,7 +31,8 @@ protected:
     if (backend["account"]) {
       // Load account service configuration.
       auto account_service = backend["account"]["service"];
-      for (auto it = account_service.begin(); it != account_service.end(); it++) {
+      for (auto it = account_service.begin(); it != account_service.end();
+           it++) {
         auto server = it->as<std::string>();
         auto hostname = server.substr(0, server.find(":"));
         auto port = std::stoi(server.substr(server.find(":") + 1));
@@ -43,7 +45,7 @@ protected:
       auto account_db_host = account_db.substr(0, account_db.find(":"));
       auto account_db_port = std::stoi(
           account_db.substr(account_db.find(":") + 1));
-      sprintf(conn_cstr, conn_fmt, postgres_user.c_str(),
+      snprintf(conn_cstr, sizeof(conn_cstr), conn_fmt, postgres_user.c_str(),
           postgres_password.c_str(), account_db_host.c_str(), account_db_port,
           postgres_dbname.c_str());
       account_db_conn_str = std::string(conn_cstr);
@@ -89,7 +91,7 @@ protected:
       auto post_db = backend["post"]["database"].as<std::string>();
       auto post_db_host = post_db.substr(0, post_db.find(":"));
       auto post_db_port = std::stoi(post_db.substr(post_db.find(":") + 1));
-      sprintf(conn_cstr, conn_fmt, postgres_user.c_str(),
+      snprintf(conn_cstr, sizeof(conn_cstr), conn_fmt, postgres_user.c_str(),
           postgres_password.c_str(), post_db_host.c_str(), post_db_port,
           postgres_dbname.c_str());
       post_db_conn_str = std::string(conn_cstr);
@@ -110,10 +112,11 @@ protected:
       }
       // Build uniquepair database connection string.
       auto uniquepair_db = backend["uniquepair"]["database"].as<std::string>();
-      auto uniquepair_db_host = uniquepair_db.substr(0, uniquepair_db.find(":"));
+      auto uniquepair_db_host = uniquepair_db.substr(0,
+                                uniquepair_db.find(":"));
       auto uniquepair_db_port = std::stoi(
           uniquepair_db.substr(uniquepair_db.find(":") + 1));
-      sprintf(conn_cstr, conn_fmt, postgres_user.c_str(),
+      snprintf(conn_cstr, sizeof(conn_cstr), conn_fmt, postgres_user.c_str(),
           postgres_password.c_str(), uniquepair_db_host.c_str(),
           uniquepair_db_port, postgres_dbname.c_str());
       uniquepair_db_conn_str = std::string(conn_cstr);
@@ -125,7 +128,7 @@ protected:
   std::unique_ptr<account_service::Client> get_account_client() {
     // Randomly select a server.
     std::pair<std::string, int> server =
-        account_service[rand() % int(account_service.size())];
+        account_service[rand() % static_cast<int>(account_service.size())];
     return std::move(std::make_unique<account_service::Client>(
         server.first, server.second, 10000));
   }
@@ -133,7 +136,7 @@ protected:
   std::unique_ptr<follow_service::Client> get_follow_client() {
     // Randomly select a server.
     std::pair<std::string, int> server =
-        follow_service[rand() % int(follow_service.size())];
+        follow_service[rand() % static_cast<int>(follow_service.size())];
     return std::move(std::make_unique<follow_service::Client>(
         server.first, server.second, 10000));
   }
@@ -141,7 +144,7 @@ protected:
   std::unique_ptr<like_service::Client> get_like_client() {
     // Randomly select a server.
     std::pair<std::string, int> server =
-        like_service[rand() % int(like_service.size())];
+        like_service[rand() % static_cast<int>(like_service.size())];
     return std::move(std::make_unique<like_service::Client>(
         server.first, server.second, 10000));
   }
@@ -149,7 +152,7 @@ protected:
   std::unique_ptr<post_service::Client> get_post_client() {
     // Randomly select a server.
     std::pair<std::string, int> server =
-        post_service[rand() % int(post_service.size())];
+        post_service[rand() % static_cast<int>(post_service.size())];
     return std::move(std::make_unique<post_service::Client>(
         server.first, server.second, 10000));
   }
@@ -157,7 +160,8 @@ protected:
   std::unique_ptr<uniquepair_service::Client> get_uniquepair_client() {
     // Randomly select a server.
     std::pair<std::string, int> server =
-        uniquepair_service[rand() % int(uniquepair_service.size())];
+        uniquepair_service[rand() % static_cast<int>(
+                           uniquepair_service.size())];
     return std::move(std::make_unique<uniquepair_service::Client>(
         server.first, server.second, 10000));
   }
