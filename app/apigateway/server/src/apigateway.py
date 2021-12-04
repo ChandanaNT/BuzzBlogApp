@@ -1,5 +1,8 @@
 # Copyright (C) 2020 Georgia Tech Center for Experimental Research in Computer
 # Systems
+"""
+TODO : Sample string decribing the purpose of this file.
+"""
 
 import random
 
@@ -16,6 +19,7 @@ from buzzblog.gen.ttypes import *
 
 
 class ThriftClientFactory:
+    """ TODO : Class description """
     def __init__(self):
         backend_filename = "/etc/opt/BuzzBlogApp/backend.yml"
         with open(backend_filename, encoding="utf-8") as backend_file:
@@ -26,31 +30,37 @@ class ThriftClientFactory:
             self._post_servers = backend["post"]["service"]
 
     def get_account_client(self):
+        """ TODO : Method description """
         server = random.choice(self._account_servers)
         return AccountClient(server.split(':')[0], int(server.split(':')[1]))
 
     def get_follow_client(self):
+        """ TODO : Method description """
         server = random.choice(self._follow_servers)
         return FollowClient(server.split(':')[0], int(server.split(':')[1]))
 
     def get_like_client(self):
+        """ TODO : Method description """
         server = random.choice(self._like_servers)
         return LikeClient(server.split(':')[0], int(server.split(':')[1]))
 
     def get_post_client(self):
+        """ TODO : Method description """
         server = random.choice(self._post_servers)
         return PostClient(server.split(':')[0], int(server.split(':')[1]))
 
 
 def setup_app():
+    """ TODO : Method description """
     application = flask.Flask(__name__)
     application.url_map.strict_slashes = False
     return application
 
 def setup_logger():
-    logger = spd.FileLogger("logger", "/tmp/calls.log")
-    logger.set_pattern("[%H:%M:%S.%F] pid=%P tid=%t %v")
-    return logger
+    """ TODO : Method description """
+    logger_object = spd.FileLogger("logger", "/tmp/calls.log")
+    logger_object.set_pattern("[%H:%M:%S.%F] pid=%P tid=%t %v")
+    return logger_object
 
 
 app = setup_app()
@@ -61,6 +71,7 @@ logger = setup_logger()
 
 @auth.verify_password
 def verify_password(username, password):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"])
     with thrift_client_factory.get_account_client() as account_client:
         try:
@@ -74,6 +85,7 @@ def verify_password(username, password):
 
 @app.route("/account", methods=["POST"])
 def create_account():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"])
     params = flask.request.get_json()
     try:
@@ -107,6 +119,7 @@ def create_account():
 @app.route("/account/<int:account_id>", methods=["GET"])
 @auth.login_required
 def retrieve_account(account_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_account_client() as account_client:
@@ -136,6 +149,7 @@ def retrieve_account(account_id):
 @app.route("/account/<int:account_id>", methods=["PUT"])
 @auth.login_required
 def update_account(account_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -171,6 +185,7 @@ def update_account(account_id):
 @app.route("/account/<int:account_id>", methods=["DELETE"])
 @auth.login_required
 def delete_account(account_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_account_client() as account_client:
@@ -187,6 +202,7 @@ def delete_account(account_id):
 @app.route("/follow", methods=["POST"])
 @auth.login_required
 def follow_account():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -213,6 +229,7 @@ def follow_account():
 @app.route("/follow/<int:follow_id>", methods=["GET"])
 @auth.login_required
 def retrieve_follow(follow_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_follow_client() as follow_client:
@@ -254,6 +271,7 @@ def retrieve_follow(follow_id):
 @app.route("/follow/<int:follow_id>", methods=["DELETE"])
 @auth.login_required
 def delete_follow(follow_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_follow_client() as follow_client:
@@ -270,6 +288,7 @@ def delete_follow(follow_id):
 @app.route("/follow", methods=["GET"])
 @auth.login_required
 def list_follows():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -322,6 +341,7 @@ def list_follows():
 @app.route("/post", methods=["POST"])
 @auth.login_required
 def create_post():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -349,6 +369,7 @@ def create_post():
 @app.route("/post/<int:post_id>", methods=["GET"])
 @auth.login_required
 def retrieve_post(post_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_post_client() as post_client:
@@ -382,6 +403,7 @@ def retrieve_post(post_id):
 @app.route("/post/<int:post_id>", methods=["DELETE"])
 @auth.login_required
 def delete_post(post_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_post_client() as post_client:
@@ -398,6 +420,7 @@ def delete_post(post_id):
 @app.route("/post", methods=["GET"])
 @auth.login_required
 def list_posts():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -440,6 +463,7 @@ def list_posts():
 @app.route("/like", methods=["POST"])
 @auth.login_required
 def like_post():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
@@ -466,6 +490,7 @@ def like_post():
 @app.route("/like/<int:like_id>", methods=["GET"])
 @auth.login_required
 def retrieve_like(like_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         request_metadata=request_metadata)
     with thrift_client_factory.get_like_client() as like_client:
@@ -517,6 +542,7 @@ def retrieve_like(like_id):
 @app.route("/like/<int:like_id>", methods=["DELETE"])
 @auth.login_required
 def delete_like(like_id):
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     with thrift_client_factory.get_like_client() as like_client:
@@ -533,6 +559,7 @@ def delete_like(like_id):
 @app.route("/like", methods=["GET"])
 @auth.login_required
 def list_likes():
+    """ TODO : Method description """
     request_metadata = TRequestMetadata(id=flask.request.args["request_id"],
         requester_id=auth.current_user().id)
     params = flask.request.get_json()
