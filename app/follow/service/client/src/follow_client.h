@@ -15,23 +15,24 @@
 #include <buzzblog/gen/TFollowService.h>
 
 
-using namespace apache::thrift;
-using namespace apache::thrift::protocol;
-using namespace apache::thrift::transport;
+using apache::thrift;
+using apache::thrift::protocol;
+using apache::thrift::transport;
 
-using namespace gen;
+using gen;
 
 
 namespace follow_service {
-  class Client {
-   private:
+class Client {
+ private:
     std::string _ip_address;
     int _port;
     std::shared_ptr<TSocket> _socket;
     std::shared_ptr<TTransport> _transport;
     std::shared_ptr<TProtocol> _protocol;
     std::shared_ptr<TFollowServiceClient> _client;
-   public:
+
+ public:
     Client(const std::string& ip_address, int port, int conn_timeout_ms) {
       _ip_address = ip_address;
       _port = port;
@@ -159,5 +160,5 @@ namespace follow_service {
           _ip_address, _port, latency.count());
       return ret;
     }
-  };
+};
 }
